@@ -4,10 +4,10 @@ import Image2 from "../assests/image2.png";
 import Image3 from "../assests/image3.png";
 const Services = () => {
   return (
-    <section className="h-[60vh] bg-bgGrey w-full py-[4rem]">
+    <section className="bg-bgGrey w-full py-[6rem] lg:py-[4rem]">
       <h1 className="text-center text-4xl">SERVICES</h1>
       <p className="opacity-50 text-center text-[1.3rem] mb-12">WE DO IT</p>
-      <div className="flex w-full px-[15rem]">
+      <div className="flex w-full px-[5rem] md:px-[15rem] my-auto">
         <div className="mx-4">
           <Image src={Image1} />
         </div>

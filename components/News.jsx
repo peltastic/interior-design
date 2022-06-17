@@ -2,19 +2,19 @@ import Image from "next/image";
 import NewImg from "../assests/news.png";
 const News = () => {
   return (
-    <section className=" px-[15rem] py-[5rem]">
+    <section className=" px-[2rem] xl:px-[15rem] py-[7rem] md:py-[5rem]">
       <h1 className="text-center text-4xl font-bold">NEWS</h1>
-      <p className="text-center text-2xl mt-5 opacity-50 mb-12">
+      <p className="text-center text-2xl mt-5 opacity-50 mb-20 md:mb-12">
         LATEST EVENTS
       </p>
-      <div className="flex w-full items-center justify-center">
+      <div className="flex flex-wrap w-full items-center justify-center">
         <div className="w-[50%]">
-          <div className="w-[40rem]">
+          <div className=" sm:w-[40rem]">
             <Image src={NewImg} />
             <button className="-mt-[1rem] w-full text-white py-8 bg-primary">SEPTEMBER 14</button>
           </div>
         </div>
-        <div className="w-[40%]">
+        <div className=" w-[70%] md:w-[40%] mt-[7rem] md:mt-0">
             <div className="mb-14">
               <h2 className="text-xl font-bold mb-4">IN A NUMBER OF RECENT JUDICIAL</h2>
               <h3 className="text-lg font-bold text-primary mb-4">12.09.2021</h3>

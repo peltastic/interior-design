@@ -9,7 +9,7 @@ const Subscribe = () => {
       <p className="text-center text-2xl mt-5 opacity-50">
         YOU WILL RECIEVE NOTIFICATION ABOUT NEW COMPANY NEWS
       </p>
-      <div className="flex w-[70%] mx-auto justify-center  my-[4rem]">
+      <div className="flex w-[100%] sm:w-[70%] mx-auto justify-center  my-[4rem]">
         <input
           type="email"
           placeholder="E-mail"
@@ -29,10 +29,10 @@ const Subscribe = () => {
         <div className="mx-8">
           <Image src={SubscribeImg} />
         </div>
-        <div className="mx-8">
+        <div className="mx-8 hidden sm:block">
           <Image src={SubscribeImg} />
         </div>
-        <div className="mx-8">
+        <div className="mx-8 hidden sm:block">
           <Image src={SubscribeImg} />
         </div>
       </div>
